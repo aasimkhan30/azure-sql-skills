@@ -1,5 +1,24 @@
 # Support
 
-This repository is an installation preview. All skill bodies and references are placeholders, so the skills do not provide operational guidance.
+## How to file issues and get help
 
-For installation or discovery issues, open an issue at https://github.com/aasimkhan30/azure-sql-skills/issues. Do not include credentials, connection strings, or private data.
+This project uses GitHub Issues for feedback about the skills in this repository: a skill that gave
+you wrong guidance, a skill that did not load when it should have, or one that loaded when it should
+not have. Please search the [existing issues](https://github.com/aasimkhan30/microsoft-sql/issues)
+before filing, to avoid duplicates.
+
+Open a new issue with the **Agent skill feedback** form:
+[github.com/aasimkhan30/microsoft-sql/issues/new?template=skill_feedback.yml](https://github.com/aasimkhan30/microsoft-sql/issues/new?template=skill_feedback.yml).
+Blank issues are turned off, so the form is the way in. Tell us which plugin and skill, what you
+asked, and what it did.
+
+For questions about using the skills rather than a defect in one, use
+[Discussions](https://github.com/aasimkhan30/microsoft-sql/discussions).
+
+Issues here are about the skills. For the Azure SQL Database service itself, start with the
+[Azure SQL Database documentation](https://learn.microsoft.com/azure/azure-sql/database/), and use
+your Azure support plan for anything affecting a running database.
+
+## Microsoft Support Policy
+
+Support for these agent skills is limited to the resources listed above.
