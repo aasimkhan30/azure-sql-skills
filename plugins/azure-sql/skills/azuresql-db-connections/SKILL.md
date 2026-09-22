@@ -1,0 +1,8 @@
+---
+name: azuresql-db-connections
+description: Placeholder for the azuresql-db-connections skill in the SQL agent skills marketplace preview.
+---
+
+# azuresql-db-connections
+
+This skill is a placeholder for installation and discovery testing.
