@@ -17,9 +17,9 @@ This repository is an independent installation preview copied from the
 
 | Client | How |
 | --- | --- |
-| Claude Code | `/plugin marketplace add <this repository>` then `/plugin install <plugin>@sql-agent-skills` |
-| Copilot CLI | `copilot plugin marketplace add <this repository>` then `copilot plugin install <plugin>@sql-agent-skills` |
-| VS Code (Copilot) | add this repository to `chat.plugins.marketplaces`, install from the Extensions view (`@agentPlugins`) |
+| Claude Code | `/plugin marketplace add aasimkhan30/azure-sql-skills` then `/plugin install <plugin>@sql-agent-skills` |
+| Copilot CLI | `copilot plugin marketplace add aasimkhan30/azure-sql-skills` then `copilot plugin install <plugin>@sql-agent-skills` |
+| VS Code (Copilot) | add `aasimkhan30/azure-sql-skills` to `chat.plugins.marketplaces`, install from the Extensions view (`@agentPlugins`) |
 | Codex | `.agents/plugins/marketplace.json` is read from the repository root; or copy `plugins/<plugin>/skills/*` into `.agents/skills/` |
 | Cursor | Customize > From GitHub Repository (`.cursor-plugin/marketplace.json`), or copy skills into `.cursor/skills/` |
 | Grok Build | reads the Claude Code marketplace and plugin descriptors unchanged |
